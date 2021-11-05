@@ -19,20 +19,7 @@ function Home({ data }) {
       </div>
     </>
   );
-  //   return (
-  //     <>
-  //       {data.map((character) => {
-  //         <div key={character.id}>
-  //           <div className="charDetailsDiv" key={character.id}>
-  //             <Link to={`/characters/${character.id}`}>
-  //               <h3>{character.name}</h3>
-  //               <img src={character.img}></img>
-  //             </Link>
-  //           </div>
-  //         </div>;
-  //       })}
-  //     </>
-  //   );
+ 
 }
 
 export default Home;
