@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+.continer{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px ;
+  justify-content: center;
+  gap:50px
+}
+.chield{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.transoaret{
+  background-color: transparent;
+}
+
+.flexs{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
